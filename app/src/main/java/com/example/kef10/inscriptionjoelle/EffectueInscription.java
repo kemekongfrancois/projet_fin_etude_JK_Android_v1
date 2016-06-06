@@ -30,8 +30,7 @@ import java.util.HashMap;
 import java.util.List;
 
 public class EffectueInscription extends AppCompatActivity {
-//--------ggggggg
-    int i;
+
     private EditText email;
     private EditText nom;
     private EditText prenom;
