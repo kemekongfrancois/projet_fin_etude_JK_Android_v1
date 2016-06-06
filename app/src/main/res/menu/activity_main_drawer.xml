@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_accueil"
+            android:title="@string/accueil" />
+        <item
+            android:id="@+id/menu_edit_person"
+            android:title="@string/editer_Personne" />
+
+    </group>
+
+    <item android:title="@string/menu_administrateur"
+        android:id="@+id/menu_administrateur">
+        <menu>
+            <item
+                android:id="@+id/valider_inscription"
+                android:title="@string/valider_inscription" />
+            <item
+                android:id="@+id/creer_option_ou_classe"
+                android:title="@string/crer_une_option_ou_une_classe" />
+            <item
+                android:id="@+id/creer_salle_de_classe"
+                android:title="@string/creer_salle_de_classe" />
+            <item
+                android:id="@+id/modifier_salle_de_classe"
+                android:title="@string/modifier_salle_de_classe" />
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_super_administrateur"
+        android:id="@+id/menu_super_administrateur">
+        <menu>
+            <item
+                android:id="@+id/valider_dossier_inscription"
+                android:title="@string/valider_dossier_inscription" />
+
+            <item
+                android:id="@+id/creer_compte_administrateur"
+                android:title="@string/creer_compte_administrateur" />
+        </menu>
+    </item>
+
+
+</menu>

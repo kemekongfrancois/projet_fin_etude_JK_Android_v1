@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lycée Technique de Dschang</string>
+
+
+    <string name="message_attente_titre">Patienter</string>
+    <string name="message_attente_message">Traitement…</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="action_sign_in">Se connecter</string>
+    <string name="error_invalid_email">Cette adresse email est invalide</string>
+    <string name="error_incorrect_password_or_loging">login ou mot de passe incorrect</string>
+    <string name="error_incorrect_password">Ce mot de passe est incorrect</string>
+    <string name="error_field_required">Ce champ est requis</string>
+    <string name="faire_nouvelle_inscription">Faire une inscription</string>
+    <string name="connection_server_impossible">Impossible de se connecter au serveur</string>
+    <string name="prompt_nom">Nom</string>
+    <string name="prompt_prenom">Prenom</string>
+    <string name="prompt_date_naissance">Date de naissance (yyyy-MM-dd)</string>
+    <string name="prompt_ancien_password">Ancien mot de passe</string>
+    <string name="prompt_new_password">Nouveau mot de passe</string>
+    <string name="prompt_new_password2">Répéter le mot de passe</string>
+    <string name="bouton_enregistre">sauvegarder</string>
+    <string name="error_field_date_invalide">Date invalide</string>
+    <string name="error_field_password_non_identique">Les deux mots de passe ne sont pas identique</string>
+    <string name="boite_dialogue_message_confirmation">Voulez-vous enregistrer ?</string>
+    <string name="boite_dialogue_OUI">Oui</string>
+    <string name="boite_dialogue_NON">Non</string>
+    <string name="message_succe">Succès</string>
+    <string name="message_echec">Echec</string>
+    <string name="elve_ayant_reusi_le_concour">vous avez votre nom sur la liste</string>
+    <string name="classe">Classe</string>
+    <string name="message_list_classe_charge">Liste de classe chargé</string>
+    <string name="choisir_classe">Choisir la classe</string>
+    <string name="choisir_option">Choisir l\'option</string>
+    <string name="message_list_option_charge">Liste d\'option chargé</string>
+    <string name="email_deja_utilise">Email déjà utilisé</string>
+    <string name="numero_identification">numéro d\'identification</string>
+    <string name="menu_administrateur">Administrateur</string>
+    <string name="valider_inscription">Valider inscription</string>
+    <string name="message_list_eleve_charge">Liste d\'élèves charge</string>
+    <string name="numero_identification_inconue">numéro d\'identification inconnue</string>
+    <string name="pension">Frais de scolarité</string>
+    <string name="placeDisponible">Place disponible</string>
+    <string name="inscription_effectue">Inscription effectuée</string>
+    <string name="menu_super_administrateur">Super administrateur</string>
+    <string name="valider_dossier_inscription">Valider dossier</string>
+    <string name="rejeter_dossier">Rejeter dossier</string>
+    <string name="adresse_du_serveur">Adresse du serveur</string>
+    <string name="dossier_rejeter">Dossier rejeté</string>
+    <string name="dossier_en_cour_de_traitement">En attente de validation du dossier</string>
+    <string name="en_attente_de_validation_d_inscription">En attente de validation d\'inscription</string>
+    <string name="inscription_rejeter">Inscription rejeter</string>
+    <string name="creer_compte_administrateur">Créer un compte d\'administrateur</string>
+    <string name="crer_une_option_ou_une_classe">Créer une option ou une classe</string>
+    <string name="bouton_creer_nouvelle_classe">Créer une nouvelle classe</string>
+    <string name="bouton_creer_nouvelle_option">Créer une nouvelle option</string>
+    <string name="cet_option_existe">Cette option existe</string>
+    <string name="cet_classe_existe">Cette classe existe</string>
+    <string name="creer_salle_de_classe">Créer nouvelle salle de classe</string>
+    <string name="numero_classe">Numéro de classe</string>
+    <string name="effectif">Effectif</string>
+    <string name="cette_salle_de_classe_existe">Cette salle de classe existe</string>
+    <string name="modifier_salle_de_classe">Modifier salle de classe</string>
+    <string name="message_list_salle_de_classe_charge">Listes de salle de classe charge</string>
+    <string name="langue">Langue :</string>
+    <string name="message_accueil">Bienvenue au Lycée Technique de Dschang</string>
+    <string name="accueil">Accueil</string>
+    <string name="editer_Personne">Modifier compte</string>
+
+</resources>

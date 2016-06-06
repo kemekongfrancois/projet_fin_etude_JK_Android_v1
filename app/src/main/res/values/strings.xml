@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">GTHS of Dschang</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="message_attente_titre">Please wait</string>
+    <string name="message_attente_message">In progress…</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password </string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_incorrect_password_or_loging">This password or login is incorrect</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="faire_nouvelle_inscription">Do registration</string>
+    <string name="connection_server_impossible">Can not connect to server</string>
+    <string name="prompt_nom">Name</string>
+    <string name="prompt_prenom">Surname</string>
+    <string name="prompt_date_naissance">Date of birth (yyyy-MM-dd)</string>
+    <string name="prompt_ancien_password">Old password</string>
+    <string name="prompt_new_password">New password</string>
+    <string name="prompt_new_password2">Repeat password</string>
+    <string name="bouton_enregistre">Save</string>
+    <string name="error_field_date_invalide">Invalid date</string>
+    <string name="error_field_password_non_identique">Both passwords must be identical</string>
+    <string name="boite_dialogue_message_confirmation">Do you want to save?</string>
+    <string name="boite_dialogue_OUI">Yes</string>
+    <string name="boite_dialogue_NON">No</string>
+    <string name="message_succe">Success</string>
+    <string name="message_echec">Failure</string>
+    <string name="elve_ayant_reusi_le_concour">You have your name on the list</string>
+    <string name="classe">Class</string>
+    <string name="message_list_classe_charge">Class lists load</string>
+    <string name="choisir_classe">Select class</string>
+    <string name="choisir_option">Select option</string>
+    <string name="message_list_option_charge">Option lists load</string>
+    <string name="email_deja_utilise">Email already use</string>
+    <string name="numero_identification">Identification number</string>
+    <string name="menu_administrateur">Administrator</string>
+    <string name="valider_inscription">Validate registrations</string>
+    <string name="message_list_eleve_charge">Student lists load</string>
+    <string name="numero_identification_inconue">Unknown identification number</string>
+    <string name="pension">School Fees</string>
+    <string name="placeDisponible">Free places</string>
+    <string name="inscription_effectue">Successful inscription</string>
+    <string name="menu_super_administrateur">Super administrator</string>
+    <string name="valider_dossier_inscription">Validate file</string>
+    <string name="rejeter_dossier">Reject file</string>
+    <string name="adresse_du_serveur">Server adresse</string>
+    <string name="dossier_rejeter">File Reject</string>
+    <string name="dossier_en_cour_de_traitement">File waiting validation</string>
+    <string name="en_attente_de_validation_d_inscription">Registration waiting validation</string>
+    <string name="inscription_rejeter">Inscription reject</string>
+    <string name="creer_compte_administrateur">Create administrator account</string>
+    <string name="crer_une_option_ou_une_classe">Create an option or a class</string>
+    <string name="bouton_creer_nouvelle_classe">Create new class</string>
+    <string name="bouton_creer_nouvelle_option">Create new option</string>
+    <string name="cet_option_existe">This option exists</string>
+    <string name="cet_classe_existe">This class exists</string>
+    <string name="creer_salle_de_classe">Create new classroom</string>
+    <string name="numero_classe">Class number</string>
+    <string name="effectif">Effective</string>
+    <string name="cette_salle_de_classe_existe">This classroom is exists</string>
+    <string name="modifier_salle_de_classe">Modify classroom</string>
+    <string name="message_list_salle_de_classe_charge">Classroom lists load</string>
+    <string name="message_accueil">Welcome to the Government Technical High School of Dschang</string>
+    <string name="langue">Language :</string>
+    <string name="accueil">Home</string>
+    <string name="editer_Personne">Edit account</string>
+
+
+</resources>

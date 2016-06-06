@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:id="@+id/formulaire_d_creation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:layout_marginTop="15dp">
+
+                <Spinner
+                    android:prompt="@string/choisir_classe"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/choixClasse"
+                    android:spinnerMode="dialog"
+                    android:layout_weight="0.26" />
+
+                <Spinner
+                    android:prompt="@string/choisir_option"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/choixOption"
+                    android:spinnerMode="dialog"
+                    android:layout_weight="0.58" />
+
+
+            </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_marginTop="15dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+                <EditText
+                    android:id="@+id/numeroClasse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:hint="@string/numero_classe"
+                    android:layout_weight="0.81"
+                    android:text="1" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp">
+                <EditText
+                    android:id="@+id/effectif"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:hint="@string/effectif"
+                    android:layout_weight="0.81" />
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/button_save"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/bouton_enregistre"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
