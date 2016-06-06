@@ -98,7 +98,7 @@ public class EffectueInscription extends AppCompatActivity {
 
                         public void onClick(DialogInterface dialog, int which) {
                             if(nouveau.isChecked()){//cas où l'élève à son nom sur la liste (ancien éléves dans la BD)
-                                //Toast.makeText(EffectueInscription.this,"c'est coché",Toast.LENGTH_SHORT).show();
+                                //Toast.makeText(EffectueInscription.this,"c'est coché",Toast.LENGTH_SHORT).show() ;
                                 TaskCreerEleve task = new TaskCreerEleve(
                                         email.getText().toString(),
                                         choixClasse.getSelectedItem().toString(),
