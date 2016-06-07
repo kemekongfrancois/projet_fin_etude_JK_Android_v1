@@ -68,5 +68,10 @@
     <string name="message_accueil">Bienvenue au Lycée Technique de Dschang</string>
     <string name="accueil">Accueil</string>
     <string name="editer_Personne">Modifier compte</string>
+    <string name="liste_eleve_inscrit">liste des élèves inscrit</string>
+    <string name="toutes_les_classes">toutes les classes</string>
+    <string name="liste_vide">Liste vide</string>
+    <string name="genere_list_inscrit">générer la liste des inscrits</string>
+    <string name="fichier_creer">Fichier creer</string>
 
 </resources>

@@ -345,6 +345,45 @@ public class WebServiceJoelle {
     }
 
     /**
+     * retourne la liste des élèves inscrit dans une salle de classe
+     * @param nomClasse
+     * @param nomOption
+     * @return
+     */
+    public List<Student> listEleveInscritDansClasse(String nomClasse, String nomOption){
+        String METHOD_NAME = "listEleveInscritDansClasse";
+        List<Object> listParam = new ArrayList<>();
+        listParam.add(nomClasse);
+        listParam.add(nomOption);
+
+        List<Student> listEleve = new ArrayList<Student>();
+        List<SoapObject> listSoapObjet = executeWSList(METHOD_NAME, listParam);
+        SoapObject objectSoap;
+        for (int i=0;i<listSoapObjet.size();i++){
+            objectSoap = listSoapObjet.get(i);
+            listEleve.add(new Student(objectSoap));
+        }
+        return listEleve;
+    }
+
+    /**
+     * retourne la liste des élèves inscrit
+     * @return
+     */
+    public List<Student> listEleveInscrit(){
+        String METHOD_NAME = "listEleveInscrit";
+
+        List<Student> listEleve = new ArrayList<Student>();
+        List<SoapObject> listSoapObjet = executeWSList(METHOD_NAME, new ArrayList<>());//on n'a pas de paramettre doù la liste vide de paramettre
+        SoapObject objectSoap;
+        for (int i=0;i<listSoapObjet.size();i++){
+            objectSoap = listSoapObjet.get(i);
+            listEleve.add(new Student(objectSoap));
+        }
+        return listEleve;
+    }
+
+    /**
      * retourne le nombre de place restante dans une salle de classe
      * @param nomClasse
      * @param nomOption

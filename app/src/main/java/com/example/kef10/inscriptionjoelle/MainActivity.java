@@ -18,6 +18,7 @@ import android.widget.TextView;
 import com.example.kef10.inscriptionjoelle.ControleurFragment.CreerCompteAdministrateur;
 import com.example.kef10.inscriptionjoelle.ControleurFragment.CreerOptionOuClasse;
 import com.example.kef10.inscriptionjoelle.ControleurFragment.CreerSalleDeClasse;
+import com.example.kef10.inscriptionjoelle.ControleurFragment.ListeEleveInscrit;
 import com.example.kef10.inscriptionjoelle.ControleurFragment.ModifierSaleDeClasse;
 import com.example.kef10.inscriptionjoelle.ControleurFragment.ValiderDossierInscription;
 import com.example.kef10.inscriptionjoelle.ControleurFragment.ValiderInscriptionFragment;
@@ -143,6 +144,8 @@ public class MainActivity extends AppCompatActivity
             fm.beginTransaction().replace(R.id.content_frame, new CreerSalleDeClasse()).commit();
         }else if (id == R.id.modifier_salle_de_classe) {
             fm.beginTransaction().replace(R.id.content_frame, new ModifierSaleDeClasse()).commit();
+        }else if (id == R.id.liste_eleve_inscrit) {
+            fm.beginTransaction().replace(R.id.content_frame, new ListeEleveInscrit()).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

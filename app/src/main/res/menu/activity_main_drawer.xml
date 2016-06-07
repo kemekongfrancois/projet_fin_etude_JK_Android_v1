@@ -26,6 +26,9 @@
             <item
                 android:id="@+id/modifier_salle_de_classe"
                 android:title="@string/modifier_salle_de_classe" />
+            <item
+                android:id="@+id/liste_eleve_inscrit"
+                android:title="@string/liste_eleve_inscrit" />
         </menu>
     </item>
 

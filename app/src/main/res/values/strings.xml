@@ -70,6 +70,11 @@
     <string name="langue">Language :</string>
     <string name="accueil">Home</string>
     <string name="editer_Personne">Edit account</string>
+    <string name="liste_eleve_inscrit">list of registered students</string>
+    <string name="toutes_les_classes">All classes</string>
+    <string name="liste_vide">empty list</string>
+    <string name="genere_list_inscrit">generate the entry list</string>
+    <string name="fichier_creer">Done writing SD</string>
 
 
 </resources>
