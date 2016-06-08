@@ -44,6 +44,7 @@ public class ListeEleveInscrit extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         final View viewFragment = inflater.inflate(R.layout.fragment_liste_eleve_inscrit,container,false);
+        getActivity().setTitle(getString(R.string.liste_eleve_inscrit));
 
         button = (Button) viewFragment.findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
