@@ -62,8 +62,10 @@ public class ListeEleveInscrit extends Fragment{
                     myFile.createNewFile();
                     FileOutputStream fOut = new FileOutputStream(myFile);
                     OutputStreamWriter myOutWriter = new OutputStreamWriter(fOut);
+                    int i=1;
                     for(Student eleve : listEleve){
-                        myOutWriter.append(eleve.getEmailAddress() + " :" + eleve.getNamePerson() + " " + eleve.getSurnamePerson() + "\n" );
+                        //myOutWriter.append(eleve.getEmailAddress() + " :" + eleve.getNamePerson() + " " + eleve.getSurnamePerson() + "\n" );
+                        myOutWriter.append(i++ + "- " + eleve.getNamePerson() + " " + eleve.getSurnamePerson() + "\n" );
                     }
                     //myOutWriter.append(txtData.getText());
                     myOutWriter.close();
@@ -296,8 +298,10 @@ public class ListeEleveInscrit extends Fragment{
             List<String> list = new ArrayList<String>();//o retire toute les ancienne valeur s'il en existe
             if (success) {//la liste a été chargé
                 button.setEnabled(true);
+                int i=1;
                 for(Student eleve: listEleve){//on met ajour l'interface graphique
-                    list.add(eleve.getEmailAddress());
+                    //list.add(eleve.getEmailAddress());
+                    list.add(i++ + "- "+eleve.getNamePerson() + " " + eleve.getSurnamePerson());
                 }
                // Toast.makeText(context, getString(R.string.message_list_eleve_charge), Toast.LENGTH_SHORT).show();
             } else {//il ya eu un pb ou la liste es vide

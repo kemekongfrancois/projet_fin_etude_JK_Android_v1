@@ -73,7 +73,7 @@ public class ValiderDossierInscription extends Fragment {
                 nom.setText(listEleve.get(position).getNamePerson());
                 prenom.setText(listEleve.get(position).getSurnamePerson());
                 date_naissance.setText(Person.formatDateSoap.format(listEleve.get(position).getDateOfBirth()));
-                pension.setText(listEleve.get(position).getOptionAndClasse().getTheClass().getSchoolFees()+"");
+                pension.setText(listEleve.get(position).getOptionAndClasse().getTheClass().getSchoolFees()+"FCFA");
                 boutonValider.setEnabled(true);
                 boutonRejeter.setEnabled(true);
 

@@ -78,7 +78,7 @@ public class ValiderInscriptionFragment extends Fragment {
                         nom.setText(listEleve.get(i).getNamePerson());
                         prenom.setText(listEleve.get(i).getSurnamePerson());
                         date_naissance.setText(Person.formatDateSoap.format(listEleve.get(i).getDateOfBirth()));
-                        pension.setText(listEleve.get(i).getOptionAndClasse().getTheClass().getSchoolFees()+"");
+                        pension.setText(listEleve.get(i).getOptionAndClasse().getTheClass().getSchoolFees()+"FCFA");
                         boutonValider.setEnabled(true);
 
                         String op = listEleve.get(i).getOptionAndClasse().getTheClass().getNameClass();
