@@ -64,7 +64,7 @@ public class ListeEleveInscrit extends Fragment{
                     OutputStreamWriter myOutWriter = new OutputStreamWriter(fOut);
                     int i=1;
                     for(Student eleve : listEleve){
-                        //myOutWriter.append(eleve.getEmailAddress() + " :" + eleve.getNamePerson() + " " + eleve.getSurnamePerson() + "\n" );
+                        // myOutWriter.append(eleve.getEmailAddress() + " :" + eleve.getNamePerson() + " " + eleve.getSurnamePerson() + "\n" );
                         myOutWriter.append(i++ + "- " + eleve.getNamePerson() + " " + eleve.getSurnamePerson() + "\n" );
                     }
                     //myOutWriter.append(txtData.getText());
