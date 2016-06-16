@@ -50,7 +50,7 @@ public class ListeEleveInscrit extends Fragment{
         button.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                // write on SD card file data in the text box
+                //write on SD card file data in the text box
                 try {
                     String nomFichier = "/sdcard/";
                     if(choixClasse.getSelectedItem().toString().equals(getString(R.string.toutes_les_classes))){//cas où on veux la liste de toutes les personnes inscrit
